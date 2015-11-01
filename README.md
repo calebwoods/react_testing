@@ -1,0 +1,3 @@
+# React Testing example
+
+Bare-bones Rails for demonstrating testing React components as shown in ...
