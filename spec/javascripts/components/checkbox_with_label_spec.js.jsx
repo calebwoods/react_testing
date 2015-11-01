@@ -1,10 +1,11 @@
 describe('CheckboxWithLabel', function () {
 
   it('changes the text after click', function () {
-    var element = React.createElement(CheckboxWithLabel, { labelOn: 'On', labelOff: 'Off' });
+    //var element = React.createElement(CheckboxWithLabel, { labelOn: 'On', labelOff: 'Off' });
 
     // Render a checkbox with label in the document
-    var checkbox = TestUtils.renderIntoDocument(element);
+    //var checkbox = TestUtils.renderIntoDocument(element);
+    var checkbox = TestUtils.renderIntoDocument(<CheckboxWithLabel labelOn="On" labelOff="Off" />);
 
     var checkboxNode = ReactDOM.findDOMNode(checkbox);
 
